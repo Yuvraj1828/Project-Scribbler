@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostList</title>
+    <link rel="stylesheet" href="postlist.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+    <header class="Header">
+        <div>
+            <h2 class="scriBBler">ScriBBler</h2>
+            <h4 class="eic">Explore , Imagine , Create</h4>
+        </div>
+
+        <div class="button">
+            <button class="Btn" onclick="showPopup()">Sign Up</button>
+
+            <div class="form">
+                <form action="">
+                    <div class="Gs">
+                        <p>Get Started</p>
+                        <hr>
+
+                        <span>&times;</span>
+                    </div>
+                    <div class="name">
+                        <label for="">Name</label>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="username">
+                        <label for="">Username</label>
+                        <input type="text" placeholder="Enter your username">
+                    </div>
+                    <div class="password">
+                        <label for="">Password</label>
+                        <input type="password" placeholder="Enter your Password">
+                    </div>
+                    <div class="confirmpassword">
+                        <label for="">Confirm Password</label>
+                        <input type="password" placeholder="Confirm your Password">
+                    </div>
+                    <div class="signup">
+                        <button>Sign Up</button>
+                    </div>
+                </form>
+            </div>
+
+            <button class="btn" onclick="showSigninForm()">Sign in</button>
+
+            <div class="SignInForm">
+                <form action="">
+                    <div class="Wb">Welcome Back!</div>
+
+                    <span onclick="">&times;</span>
+                    <div class="userName">
+                        <label for="">Username</label>
+                        <input type="text" placeholder="Enter your Username" required>
+                    </div>
+                    <div class="Password">
+                        <label for="">Passwaord</label>
+                        <input type="password" placeholder="Enter your Password" required>
+                    </div>
+                    <button>Sign In</button>
+                </form>
+                <P class="Nam">Not a Member <a href="#" onclick="showPopup()">Sign Up</a></P>
+            </div>
+ </header>
+
+ <div class="post-container">
+    <div class="post-1">Yuvraj Singh
+        <div class="content1"></div>
+        <span>&#x1F5D1</span>
+        <span>&#xF5D4;</span>
+    </div>
+    <div class="post-2">Rohan Singh
+        <div class="content2"></div>
+        <span>&#x1F5D1</span>
+    </div>
+    <div class="post-3"> Nihal Kumar
+        <div class="content3"></div>
+        <span>&#x1F5D1</span>
+    </div>
+    <div class="post-4">Vivek Verma
+        <div class="content4"></div>
+        <span>&#x1F5D1</span>
+    </div>
+    <div class="post-5">Sunny Singh
+        <div class="content5"></div>
+        <span>&#x1F5D1</span>
+    </div>
+
+    </div>
+    
+   
+ 
+
+</body>
+<script src="postlist.js" type="text/javascript"></script>
+
+</html>

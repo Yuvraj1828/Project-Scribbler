@@ -1,0 +1,360 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #ffeedd;
+    position: fixed;
+    height: 100%;
+
+}
+
+.Btn {
+    background-color: rgb(67, 67, 226);
+    color: azure;
+    position: fixed;
+    top: 10px;
+    right: 80px;
+}
+
+.btn {
+    background-color: rgb(67, 67, 226);
+    color: azure;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.scriBBler {
+    margin-top: 5px;
+    font-family: 'Montez', cursive;
+    color: rgb(75, 75, 250);
+    cursor: pointer;
+
+}
+
+.eic {
+    font-family: 'Ubuntu Mono', monospace;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.form {
+    width: 300px;
+    height: 420px;
+    background-color: rgb(236, 232, 232);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 3px #ccc;
+    opacity: 0;
+    transition: 2s;
+
+
+}
+
+.showform {
+    opacity: 1;
+}
+
+.form label {
+    height: 40px;
+    margin: 5px 5px 5px 0;
+    padding: 5px 0 5px 0;
+
+
+}
+
+.form input {
+    width: 95%;
+    height: 30px;
+    border: solid black 1px;
+    margin: 5px 5px 5px 0;
+    padding: 5px 0 5px 0;
+}
+
+.form button {
+    width: 95%;
+    height: 35px;
+    background-color: rgb(90, 198, 90);
+    color: azure;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0 10px 0 10px;
+}
+
+.form span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: black;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(208, 198, 198);
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.form p {
+    color: gray;
+    height: 35px;
+    width: 100%;
+    padding: 0 10px 0 10px;
+
+}
+
+.form hr {
+    width: 80%;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+
+.SignInForm {
+    position: fixed;
+    height: 250px;
+    width: 320px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.showSignInForm {
+    opacity: 1;
+}
+
+.Wb {
+    height: 20px;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.SignInForm input {
+    height: 25px;
+    width: 95%;
+    border: solid black 1px;
+    margin: 10px 5px 10px 5px;
+
+}
+
+.SignInForm label {
+    margin: 5px 5px 5px 5px;
+    padding: 0 5px 0 5px;
+
+}
+
+.SignInForm span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: wheat;
+    color: gray;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.SignInForm button {
+    height: 25px;
+    width: 95%;
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+    background-color: rgb(102, 227, 102);
+}
+
+.Nam {
+    height: 25px;
+    text-align: center;
+
+
+}
+
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post-1 {
+    display: flex;
+    
+     position: absolute;
+    height: 150px;
+    width: 600px;
+   background-color: #ccc;
+    top: 20%;
+    left: 20%;
+    border: solid black 1px;
+    border-radius: 2%;
+
+    
+}
+
+.post-2 {
+    display: flex;
+    position: fixed;
+    height: 150px;
+    width: 600px;
+    background-color: #ccc;
+    top:20%;
+    right: 5%;
+    border: solid black 1px;
+
+}
+
+.post-3 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 600px;
+    background-color: #ccc;
+    top: 43%;
+    left: 20%;
+    border: solid black 1px;
+
+}
+
+.post-4 {
+    display: flex;
+    position: fixed;
+    height: 150px;
+    width: 600px;
+    background-color: #ccc;
+    top: 43%;
+    right: 5%;
+    border: solid black 1px;
+
+}
+
+.post-5 {
+    display: flex;
+    position: fixed;
+    height: 150px;
+    width: 600px;
+    background-color: #ccc;
+    top: 68%;
+    right: 33%;
+    border: solid black 1px;
+
+
+}
+
+.post-1 span {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    background-color: #ccc;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.post-2 span {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    background-color: #ccc;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.post-3 span {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    background-color: #ccc;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.post-4 span {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    background-color: #ccc;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.post-5 span {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.post-1 div{
+    display: flex;
+    height: 100%;
+    width: 600px;
+    background-color:#ccc;
+    
+}
+.post-2 div{
+    display: flex;
+    height: 100%;
+    width: 600px;
+    background-color:#ccc;
+    
+}
+.post-3 div{
+    display: flex;
+    height: 100%;
+    width: 600px;
+    background-color:#ccc;
+    
+}
+.post-4 div{
+    display: flex;
+    height: 100%;
+    width: 600px;
+    background-color:#ccc;
+    
+}
+.post-5 div{
+    display: flex;
+    height: 100%;
+    width: 600px;
+    background-color:#ccc;
+    
+}
